@@ -9,6 +9,7 @@
                 {{ post.published_date }}
             </div>
             <img src="{{ post.picture.url }}"/>
+            <h2>{{ post.subtitle }}</h2>
             <p>{{ post.text|linebreaksbr }}</p>
         </div>
     {% endfor %}
